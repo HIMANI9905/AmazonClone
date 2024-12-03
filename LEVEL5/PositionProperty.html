@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position property</title>
+    <style>
+      .div{
+        background-color: red;
+        height: 80px;
+        width:70px;
+        margin: 30px;border: black ;
+        text-align: center;
+
+      }
+        #div1{
+            position:static;
+            margin: 2px;border-color: black;border-width: 2px;;
+           
+        }
+        #div2{
+            position:relative;
+            top: 5px;
+            left: 100px;
+       }
+       #div3{
+        position: absolute;
+        top: 20px;
+        right: 90px;
+       }
+      #div4{
+        position:fixed;
+         left: 90px;
+      }
+    </style>
+</head>
+<body>
+    <div id="div1" class="div" >static</div>
+    <div id="div2" class="div">relative</div>
+    <div id="div3" class="div">absolute</div>
+    <div id="div4" class="div">fixed</div>
+    
+    
+</body>
+</html>

@@ -1,0 +1,39 @@
+* {
+margin: 0px;
+padding: 0px;
+}
+nav a {
+    text-decoration: none;
+    margin-left: 55px;
+    padding: 5px;
+}
+header{
+    background-color: yellowgreen;
+    height: 30px;
+}
+#second{
+    height:50px;
+    width: 50px;
+background-color: green;
+border-radius: 50%;
+}
+.Box{
+    height: 100px; ;
+    width: 100px;
+    display: inline-block;
+    color: blue;
+    margin: 1%;
+    background-color: chartreuse;
+    border-radius: 20%;
+    text-align: center;
+}
+
+#conatiner{
+    border: 3px solid;
+margin: 5px;
+}
+
+#Box4{
+    position: fixed;
+    right: 10px;
+}
